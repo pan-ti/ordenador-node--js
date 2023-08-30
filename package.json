@@ -11,6 +11,7 @@
   "author": "pan-ti",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.3.0",
     "clear": "^0.1.0",
     "clear-terminal": "^0.0.2",
     "prompt-async": "^0.9.9",
