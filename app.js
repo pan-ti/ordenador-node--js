@@ -12,7 +12,7 @@ async function ordenarPropriedades() {
     clear();
     console.log(chalk.yellow('Lista de propriedades ordenadas:'));
 
-    // Imprime a lista ordenada em verde
+
     propriedadesOrdenadas.forEach((propriedade) =>
         console.log(chalk.green(propriedade))
     );
