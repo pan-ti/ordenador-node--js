@@ -1,18 +1,17 @@
 {
-    "type": "module",
-    "name": "projeto-ind",
-    "version": "1.0.0",
-    "description": "Essa ferramenta permite que os usuários insiram propriedades de CSS e, quando desejarem, visualizem a lista completa de propriedades ordenadas alfabeticamente.",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node app.js"
-    },
-    "author": "pan-ti",
-    "license": "MIT",
-    "dependencies": {
-        "clear": "^0.1.0",
-        "readline-promise": "^1.0.5",
-        "terminal": "^0.1.4"
-    }
+  "type": "module",
+  "name": "ordenador-node-",
+  "version": "1.0.0",
+  "description": "Essa ferramenta permite que os usuários insiram propriedades de CSS e, quando desejarem, visualizem a lista completa de propriedades ordenadas alfabeticamente.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pan-ti",
+  "license": "MIT",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "prompt-async": "^0.9.9",
+    "terminal": "^0.1.4"
+  }
 }
