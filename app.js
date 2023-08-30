@@ -21,5 +21,6 @@ async function capturarPropriedades() {
         propriedades.push(propriedade);
     }
 }
-
+clear(); // Limpar o terminal
+console.log(chalk.yellow('Bem-vindo ao Ordenador de Propriedades de CSS!'));
 capturarPropriedades();
