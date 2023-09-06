@@ -23,7 +23,7 @@ async function capturarPropriedades() {
         const { propriedade } = await prompt.get([
             {
                 name: 'propriedade',
-                description: chalk.cyan('Digite sua propriedade CSS (ou "SAIR" para finalizar)'),
+                description: chalk.cyan('Digite sua propriedade CSS(Ex: text-align, color, direction, etc)... (ou "SAIR" para finalizar)'),
             },
         ]);
 
