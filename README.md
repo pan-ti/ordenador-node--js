@@ -28,24 +28,48 @@ A biblioteca `chalk` é utilizada para adicionar cores aos textos exibidos no te
 
 As propriedades são ordenadas usando o método `.sort()` com o uso de `localeCompare` para realizar uma ordenação sensível a acentos (com base na língua portuguesa) e garantir que caracteres especiais sejam tratados corretamente.
 
+### Licença
+Este projeto está licenciado sob a Licença MIT.
+
 ## Uso
 
 1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixar a versão mais recente do Node.js em https://nodejs.org/
 
 2. Clone este repositório para o seu computador ou faça o download do arquivo ZIP e extraia-o.
 
+Na página do repositório, clique no botão "Code" (ou "Código") em verde, localizado no canto superior direito. Isso abrirá um menu suspenso.
+ 
+Certifique-se de que a opção "HTTPS" esteja selecionada. A URL do repositório será exibida. Ela se parecerá com algo como: https://github.com/nomeusuario/nomerepositorio.git.
+
+ Você precisará dessa URL para clonar o repositório.
+
+Clonar o Repositório:
+
+Abra um terminal ou prompt de comando no seu computador.
+Navegue até o diretório onde deseja clonar o repositório.
+
+Use o comando git clone seguido da URL do repositório que você copiou anteriormente:
+
+```bash
+git clone https://github.com/nomeusuario/nomerepositorio.git
+```
+
 3. No terminal, navegue até o diretório onde você clonou/extraiu o repositório.
 
 4. Instale as dependências executando o seguinte comando:
 
 ```bash
-npm install
+npm i
 
 Execute o programa com o seguinte comando:
 npm start
 
 Siga as instruções exibidas no terminal para inserir propriedades de CSS. Digite "SAIR" para encerrar e exibir a lista ordenada.
 
+```
 
 ### Licença
 Este projeto está licenciado sob a Licença MIT.
+
+
+
