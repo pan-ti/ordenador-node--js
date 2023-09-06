@@ -2,9 +2,7 @@ import prompt from 'prompt-async';
 import clear from 'clear-terminal';
 import chalk from 'chalk';
 
-const propriedades = [];
-
-async function ordenarPropriedades() {
+async function ordenarPropriedades(propriedades) {
     const propriedadesOrdenadas = [...propriedades].sort((a, b) =>
         a.localeCompare(b, 'pt', { sensitivity: 'base' })
     );
@@ -12,13 +10,14 @@ async function ordenarPropriedades() {
     clear();
     console.log(chalk.yellow('Lista de propriedades ordenadas:'));
 
-
     propriedadesOrdenadas.forEach((propriedade) =>
         console.log(chalk.green(propriedade))
     );
 }
 
 async function capturarPropriedades() {
+    const propriedades = [];
+
     while (true) {
         const { propriedade } = await prompt.get([
             {
@@ -28,7 +27,7 @@ async function capturarPropriedades() {
         ]);
 
         if (propriedade.toLowerCase() === 'sair') {
-            ordenarPropriedades();
+            ordenarPropriedades(propriedades);
             break;
         } else {
             propriedades.push(propriedade);
